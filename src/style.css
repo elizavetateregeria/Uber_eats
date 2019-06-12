@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-wrapper {
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+  height: 72px;
+}
+
+.header {
+  padding: 16px 97px 16px 81px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+@media (min-width: 1024px) {
+  .header {
+    width: 1124px;
+    margin: 0 auto;
+  }
+}
+.header .header__logo {
+  align-self: center;
+}
+.header .header__delivery-details {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__delivery-details .delivery_time {
+  display: block;
+  width: 65px;
+  height: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  outline: none;
+  text-align: center;
+  text-align-last: center;
+  font-size: 16px;
+}
+.header .header__delivery-details .text {
+  padding: 9px;
+  color: #626262;
+  font-size: 16px;
+}
+.header .header__delivery-details .header__delivery-location input {
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  outline: none;
+  font-size: 16px;
+  width: 292px;
+  height: 36px;
+  padding-left: 36px;
+  background: url("./images/icon_location_search.svg") no-repeat 12px 12px;
+}
+.header .header__account {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */
